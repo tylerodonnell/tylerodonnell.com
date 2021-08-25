@@ -1,0 +1,16 @@
+name: 'Deploy'
+author: 'tyler@tylerodonnell.com'
+description: 'Deploy'
+
+branding:
+  icon: 'globe'
+  color: 'green'
+
+inputs:
+  github_token:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
