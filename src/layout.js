@@ -7,7 +7,7 @@ import { BREAKPOINTS, COLORS, TIMINGS } from './constants'
 import {
   Hero,
   Links,
-  Particles,
+  Particles
 } from './containers'
 import { layout as layoutUtil } from './utils'
 import { withState } from './state'
@@ -67,7 +67,7 @@ export default () => {
   useEffect(() => window.addEventListener('resize', compose(
     dispatch,
     setLayout,
-    layoutUtil.calc,
+    layoutUtil.calc
   )), [])
 
   return (

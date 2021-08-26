@@ -26,7 +26,7 @@ export default () => {
             value: Math.ceil((layout.height * layout.width) / PARTICLE_PER_SQUARE_PIXELS),
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 1500
             }
           },
           line_linked: {
@@ -52,15 +52,15 @@ export default () => {
           events: {
             onhover: {
               enable: true,
-              mode: 'push',
-            },
+              mode: 'push'
+            }
           },
           modes: {
             push: {
-              particles_nb: 1,
-            },
-          },
-        },
+              particles_nb: 1
+            }
+          }
+        }
       }}
       width={layout.width}
     />

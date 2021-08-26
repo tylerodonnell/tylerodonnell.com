@@ -3,5 +3,5 @@ import * as layout from './layout'
 
 export {
   animations,
-  layout,
+  layout
 }

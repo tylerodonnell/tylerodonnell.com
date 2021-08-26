@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaEnvelope, FaGithub, FaKeybase, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaKeybase, FaLinkedin } from 'react-icons/fa'
 
 import { Link } from '../components'
 import {
   TIMINGS,
-  ZINDEX,
+  ZINDEX
 } from '../constants'
 import { animations } from '../utils'
 
@@ -19,19 +19,19 @@ const Links = styled.section`
 
 export default () => (
   <Links>
-    <Link href="mailto:tyler@tylerodonnell.com" target="_blank" rel="noopener noreferrer">
+    <Link href='mailto:tyler@tylerodonnell.com' target='_blank' rel='noopener noreferrer'>
       <FaEnvelope />
     </Link>
 
-    <Link href="https://github.com/tylerodonnell" target="_blank" rel="noopener noreferrer">
+    <Link href='https://github.com/tylerodonnell' target='_blank' rel='noopener noreferrer'>
       <FaGithub />
     </Link>
 
-    <Link href="https://www.linkedin.com/in/tylerodonnell" target="_blank" rel="noopener noreferrer">
+    <Link href='https://www.linkedin.com/in/tylerodonnell' target='_blank' rel='noopener noreferrer'>
       <FaLinkedin />
     </Link>
 
-    <Link href="https://keybase.io/tylerodonnell" target="_blank" rel="noopener noreferrer">
+    <Link href='https://keybase.io/tylerodonnell' target='_blank' rel='noopener noreferrer'>
       <FaKeybase />
     </Link>
   </Links>

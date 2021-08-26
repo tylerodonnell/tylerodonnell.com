@@ -4,5 +4,5 @@ import { SET_LAYOUT } from './types'
 
 export default compose(
   merge({ type: SET_LAYOUT }),
-  objOf('payload'),
+  objOf('payload')
 )

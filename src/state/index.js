@@ -7,13 +7,13 @@ import initialState from './initialState'
 export const StateContext = createContext()
 
 export const StateProvider = ({ children }) => {
-  const [ state, dispatch ] = useReducer(reducer, initialState)
+  const [state, dispatch] = useReducer(reducer, initialState)
 
   return (
     <StateContext.Provider
       value={{
         ...state,
-        dispatch,
+        dispatch
       }}
     >
       {children}

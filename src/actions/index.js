@@ -3,5 +3,5 @@ import * as TYPES from './types'
 
 export {
   setLayout,
-  TYPES,
+  TYPES
 }

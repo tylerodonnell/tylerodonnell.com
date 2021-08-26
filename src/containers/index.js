@@ -5,5 +5,5 @@ import Particles from './particles'
 export {
   Hero,
   Links,
-  Particles,
+  Particles
 }

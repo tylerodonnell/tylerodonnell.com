@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   devServer: {
     inline: true,
-    port: 3000,
+    port: 3000
   },
   entry: './src/index.js',
   module: {
@@ -12,27 +12,27 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: 'babel-loader'
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',
-          outputPath: 'assets',
-        },
-      },
-    ],
+          outputPath: 'assets'
+        }
+      }
+    ]
   },
   output: {
     path: path.join(__dirname, '/public'),
-    filename: 'app.js',
+    filename: 'app.js'
   },
   plugins: [
     new HtmlWebpackPlugin({
       hash: true,
       template: './src/index.html',
-      favicon: './public/favicon.png',
-    }),
-  ],
+      favicon: './public/favicon.png'
+    })
+  ]
 }

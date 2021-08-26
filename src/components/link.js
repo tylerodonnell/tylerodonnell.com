@@ -6,7 +6,7 @@ import {
   FONT_FAMILIES,
   FONT_SIZES,
   FONT_WEIGHTS,
-  TIMINGS,
+  TIMINGS
 } from '../constants'
 
 const Link = styled.a`
@@ -28,7 +28,7 @@ export default ({
   children,
   className,
   href,
-  target,
+  target
 }) => (
   <Link className={className} href={href} target={target}>
     {children}
