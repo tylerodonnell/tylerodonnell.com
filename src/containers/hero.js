@@ -20,7 +20,7 @@ const Headline = styled.h1`
   text-align: center;
 `
 
-const Title = styled.h1`
+const Title = styled.h2`
   color: ${COLORS.WHITE};
   font-family: ${FONT_FAMILIES.MONOSPACE};
   font-size: ${FONT_SIZES.LARGE};
