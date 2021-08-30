@@ -38,13 +38,23 @@ const Hero = styled.section`
   z-index: ${ZINDEX.CONTENT};
 `
 
+const Role = styled.a`
+  text-decoration: none;
+  color: ${COLORS.WHITE};
+  transition: color ${TIMINGS.SHORT} ease-in-out;
+
+  &:hover {
+    color: ${COLORS.BLUE}
+  }
+`
+
 export default () => (
   <Hero>
     <Headline>
       Tyler O&apos;Donnell
     </Headline>
     <Title>
-      Security Engineering Manager at <a href='https://articulate.com' target='_blank' rel='noopener noreferrer'>Articulate</a>
+      Security Engineering Manager at <Role href='https://articulate.com' target='_blank' rel='noopener noreferrer'>Articulate</Role>
     </Title>
   </Hero>
 )
