@@ -7,7 +7,7 @@ import { BREAKPOINTS, COLORS } from './constants'
 import {
   Links,
   Hero,
-  Particles,
+  Particles
 } from './containers'
 import { layout as layoutUtil } from './utils'
 import { withState } from './state'
@@ -48,12 +48,12 @@ const Layout = styled.main`
 `
 
 export default () => {
-  const [ { layout }, dispatch ] = withState()
+  const [{ layout }, dispatch] = withState()
 
   useEffect(() => window.addEventListener('resize', compose(
     dispatch,
     setLayout,
-    layoutUtil.calc,
+    layoutUtil.calc
   )), [])
 
   return (
