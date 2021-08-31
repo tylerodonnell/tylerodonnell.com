@@ -1,3 +1,4 @@
+/* global describe, expect, it */
 import React from 'react'
 import { render } from '@testing-library/react'
 
