@@ -1,4 +1,4 @@
-My personal website located at https://tylerodonnell.com (and https//tyler.ooo).
+My personal website located at https://tylerodonnell.com (and https://tyler.ooo).
 
 [![Check](https://github.com/tylerodonnell/tylerodonnell.com/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/tylerodonnell/tylerodonnell.com/actions/workflows/test.yml)&nbsp;&nbsp;&nbsp;[![Publish](https://github.com/tylerodonnell/tylerodonnell.com/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/tylerodonnell/tylerodonnell.com/actions/workflows/publish.yml)
 
