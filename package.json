@@ -8,7 +8,8 @@
     "dev": "webpack serve --mode development --open --hot",
     "build": "webpack --mode production",
     "lint": "standard",
-    "format": "standard --fix"
+    "format": "standard --fix",
+    "test": "jest test"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -16,10 +17,13 @@
     "@babel/eslint-parser": "^7.12.1",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.1",
+    "@testing-library/react": "^12.0.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.5.0",
+    "jest": "^27.1.0",
+    "jest-canvas-mock": "^2.3.1",
     "standard": "^16.0.3",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0",
