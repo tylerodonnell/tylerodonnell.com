@@ -18,7 +18,7 @@ exports[`<App /> renders 1`] = `
         <h2
           class="hero__Title-sc-178f7k9-1 fZnhZT"
         >
-          Security Engineering Manager at 
+          Senior Infosec Engineering Manager at 
           <a
             class="hero__Role-sc-178f7k9-3 bbaiGI"
             href="https://articulate.com"

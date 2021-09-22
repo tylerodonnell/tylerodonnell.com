@@ -54,7 +54,7 @@ export default () => (
       Tyler O&apos;Donnell
     </Headline>
     <Title>
-      Security Engineering Manager at <Role href='https://articulate.com' target='_blank' rel='noopener noreferrer'>Articulate</Role>
+      Senior Infosec Engineering Manager at <Role href='https://articulate.com' target='_blank' rel='noopener noreferrer'>Articulate</Role>
     </Title>
   </Hero>
 )
