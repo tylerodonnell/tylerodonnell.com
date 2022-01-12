@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:16-buster-slim
 
 COPY entrypoint.sh /entrypoint.sh
 
