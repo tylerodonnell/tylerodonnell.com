@@ -1,4 +1,4 @@
-FROM node:16-buster-slim
+FROM node:slim
 
 COPY entrypoint.sh /entrypoint.sh
 

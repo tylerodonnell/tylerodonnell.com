@@ -1,8 +1,8 @@
-import { compose, merge, objOf } from 'ramda'
+import { compose, mergeLeft, objOf } from 'ramda'
 
 import { SET_LAYOUT } from './types'
 
 export default compose(
-  merge({ type: SET_LAYOUT }),
+  mergeLeft({ type: SET_LAYOUT }),
   objOf('payload')
 )

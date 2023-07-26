@@ -11,7 +11,7 @@ export const COLORS = {
 }
 
 export const FONT_FAMILIES = {
-  MONOSPACE: 'Roboto Mono, monospace'
+  MONOSPACE: 'Berkeley Mono, monospace'
 }
 
 export const FONT_SIZES = {

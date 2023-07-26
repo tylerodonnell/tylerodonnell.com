@@ -28,6 +28,7 @@ const Title = styled.h2`
   line-height: 1.5;
   text-align: center;
 `
+
 const Hero = styled.section`
   align-items: center;
   animation: ${animations.fadeInDown} ${TIMINGS.LONG} ease ${TIMINGS.SHORT} 1 forwards;
@@ -38,23 +39,13 @@ const Hero = styled.section`
   z-index: ${ZINDEX.CONTENT};
 `
 
-const Role = styled.a`
-  text-decoration: none;
-  color: ${COLORS.WHITE};
-  transition: color ${TIMINGS.SHORT} ease-in-out;
-
-  &:hover {
-    color: ${COLORS.BLUE}
-  }
-`
-
 export default () => (
   <Hero>
     <Headline>
       Tyler O&apos;Donnell
     </Headline>
     <Title>
-      Senior Infosec Engineering Manager at <Role href='https://articulate.com' target='_blank' rel='noopener noreferrer'>Articulate</Role>
+      Information Security Leader
     </Title>
   </Hero>
 )

@@ -18,6 +18,15 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  @font-face {
+    font-family: "Berkeley Mono";
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+    src: url(/fonts/BerkeleyMono-Regular.woff2) format("woff2"), url(/fonts/BerkeleyMono-Regular.woff) format("woff");
+  }
+
   html {
     background: ${COLORS.DARK_BLUE};
     font-size: 13px;

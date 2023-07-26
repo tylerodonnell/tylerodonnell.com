@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaEnvelope, FaGithub, FaKeybase, FaLinkedin } from 'react-icons/fa'
+import { FaEnvelope, FaGithub, FaKey, FaLinkedin } from 'react-icons/fa'
 
 import { Link } from '../components'
 import {
@@ -31,8 +31,8 @@ export default () => (
       <FaLinkedin />
     </Link>
 
-    <Link href='https://keybase.io/tylerodonnell' target='_blank' rel='noopener noreferrer'>
-      <FaKeybase />
+    <Link href='/pgp.txt' target='_blank' rel='noopener noreferrer'>
+      <FaKey />
     </Link>
   </Links>
 )
